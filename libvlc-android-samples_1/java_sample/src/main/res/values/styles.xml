@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="textview_big">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/trang</item>
+    </style>
+
+    <style name="textview_small">
+        <item name="android:textSize">@dimen/_9sdp</item>
+        <item name="android:textColor">@color/trang</item>
+    </style>
+</resources>

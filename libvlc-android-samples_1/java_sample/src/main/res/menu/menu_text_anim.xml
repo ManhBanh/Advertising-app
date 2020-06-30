@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/mnTopToBottom"
+            android:title="@string/top_to_bottom"/>
+
+        <item android:id="@+id/mnbottomoTop"
+            android:title="@string/bottom_to_top"/>
+
+        <item android:id="@+id/mnRightToLeft"
+            android:title="@string/right_to_left"/>
+
+        <item android:id="@+id/mnLeftToRight"
+            android:title="@string/left_to_right"/>
+    </group>
+
+</menu>

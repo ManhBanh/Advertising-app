@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">LibVLCJavaSample</string>
+    <string name="settings">Settings</string>
+    <string name="status">Status</string>
+    <string name="license">License</string>
+    <string name="about">About</string>
+    <string name="local_settings">Local settings</string>
+    <string name="select_video">Select video to play</string>
+    <string name="select_video_explanation">Select a video in device storage</string>
+    <string name="select_web">Insert an URL</string>
+    <string name="select_web_explanation">Insert an URL to load (internet required)</string>
+    <string name="orientation">Orientation</string>
+    <string name="orientation_explanation">Set the orientation of your device(Portrait mode will only work if supported by the hardware).Application restart required</string>
+    <string name="replace_splash_screen">Replace splash screen</string>
+    <string name="replace_splash_screen_explanation">Use an image from the gallery as the splash screen</string>
+    <string name="text_animation">Text animation</string>
+    <string name="text_animation_explanation">Optimize animation for text</string>
+    <string name="top_to_bottom">Top to bottom</string>
+    <string name="bottom_to_top">Bottom to top</string>
+    <string name="right_to_left">Right to left</string>
+    <string name="left_to_right">Left to right</string>
+    <string name="start_with_device">Start during device start up?</string>
+    <string name="start_with_device_explanation">When the device starts and Android finishes loading, should the client start up and come to the foreground?</string>
+    <string name="action_bar_mode">Action bar mode</string>
+    <string name="action_bar_mode_explanation">How should the action bar behave?</string>
+    <string name="action_bar_display">Action bar display duration</string>
+    <string name="action_bar_display_explanation">How long should the action bar be shown for, in second?</string>
+    <string name="screen_dimensions">Screen dimensions</string>
+    <string name="debugging">Debugging</string>
+    <string name="automatic_restart">Automatic restart</string>
+    <string name="automatic_restart_explanation">Automatically restart the application if we detect it is not visible</string>
+    <string name="start_delay">Start delay for device start up</string>
+    <string name="start_delay_explanation">The number of seconds to wait before starting the application after the device has started. Minimum 10</string>
+    <string name="home">Home</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_the_duration">Enter the duration</string>
+    <string name="enter_an_url">Enter an URL</string>
+
+    <string name="chooser_title" translatable="false">Lorem ipsum</string>
+    <string name="choose_file">Select a file</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="empty_directory">Empty Directory</string>
+    <string name="storage_removed">Storage was removed or unmounted.</string>
+    <string name="error_selecting_file">Error selecting File</string>
+    <string name="toast_selected_path">The selected path is: </string>
+    <string name="toast_permission_granted">Permission granted! Please click on pick a file once again.</string>
+    <string name="toast_permission_denied">Permission denied to read your External storage :(</string>
+
+    <string name="test_text" translatable="false">Quí I/2020, dịch Covid-19 đã ảnh hưởng nghiêm trọng đến hầu hết các ngành kinh tế, trong đó du lịch là một trong những lĩnh vực bị ảnh hưởng nhiều nhất</string>
+</resources>

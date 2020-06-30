@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorProgressBar">#F01111</color>
+    <color name="den">#0A0A0A</color>
+    <color name="denmo">#250C0C0C</color>
+    <color name="fragment_background_color">#6BA8A2A2</color>
+    <color name="trang">#fff</color>
+    <color name="toobarColor">#F38A18</color>
+    <color name="trangmo">#9CFCF7F7</color>
+    <color name="xanhdatroi">#A413C7AF</color>
+    <color name="trongsuot">#00FFFFFF</color>
+</resources>

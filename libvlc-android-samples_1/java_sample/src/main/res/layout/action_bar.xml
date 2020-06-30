@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true">
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="@dimen/_1sdp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/btnSettings"
+        android:background="@color/trang" />
+
+    <View
+        android:id="@+id/v2"
+        android:layout_width="@dimen/_1sdp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/btnStatus"
+        android:background="@color/trang" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@color/den"
+        android:text="@string/settings"
+        android:textColor="@color/trang" />
+
+    <Button
+        android:id="@+id/btnStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/v1"
+        android:background="@color/den"
+        android:text="@string/status"
+        android:textColor="@color/trang" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/v2"
+        android:background="@color/den"
+        android:text="@string/home"
+        android:textColor="@color/trang" />
+</RelativeLayout>

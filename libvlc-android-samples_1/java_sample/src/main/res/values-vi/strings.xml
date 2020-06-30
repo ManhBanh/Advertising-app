@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LibVLCJavaSample</string>
+    <string name="settings">Cài đặt</string>
+    <string name="status">Trạng thái</string>
+    <string name="about">Thông tin</string>
+    <string name="license">Chứng chỉ</string>
+    <string name="action_bar_display">Thời gian hiển thị action bar</string>
+    <string name="action_bar_mode">Chế độ action bar</string>
+    <string name="automatic_restart">Tự động khởi động lại</string>
+    <string name="debugging">Chế độ sửa lỗi</string>
+    <string name="local_settings">"Cài đặt "</string>
+    <string name="orientation">Hướng xoay</string>
+    <string name="replace_splash_screen">Thay đổi màn hình khởi chạy</string>
+    <string name="screen_dimensions">Tùy chọn kích thước màn hình hiển thị</string>
+    <string name="start_delay">Độ trễ mở ứng dụng khi thiết bị khởi động</string>
+    <string name="start_with_device">Có khởi chạy ứng dụng khi thiết bị khởi động không?</string>
+    <string name="start_with_device_explanation">Khi thiết bị khởi động và Android tải xong, ứng dụng có được phép khởi chạy và hiển thị lên nền trước không?</string>
+    <string name="orientation_explanation">Thiết lập hướng xoay thiết bị của bạn (Chế độ hướng dọc chỉ hoạt động khi phần cứng thiết bị của bạn hỗ trợ)</string>
+    <string name="action_bar_display_explanation">Action bar nên hiển thị trong bao lâu?</string>
+    <string name="cancel">Hủy</string>
+    <string name="enter_the_duration">Nhập thời gian</string>
+    <string name="home">Trang chủ</string>
+    <string name="replace_splash_screen_explanation">Sử dụng một ảnh trong bộ sưu tập làm màn hình khởi chạy</string>
+    <string name="action_bar_mode_explanation">Hide(Ẩn) hoặc Timed(Ẩn sau bao lâu)</string>
+    <string name="automatic_restart_explanation">Tự động khởi động lại ứng dụng nếu phát hiện ra nó không chạy</string>
+    <string name="start_delay_explanation">Số giây phải đợi trước khi bắt đầu ứng dụng sau khi thiết bị khởi động xong. Tối thiểu là 10s</string>
+    <string name="select_video">Chọn một video để phát</string>
+    <string name="select_video_explanation">Chọn một  video trong bộ nhớ thiết bị</string>
+    <string name="select_web">Nhập một URL</string>
+    <string name="select_web_explanation">Nhập vào một URL để mở (yêu cầu thiết bị phải kết nối internet để tải trang)</string>
+    <string name="enter_an_url">Nhập một URL</string>
+    <string name="choose_file">Chọn một tệp</string>
+    <string name="empty_directory">Thư mục trống</string>
+    <string name="error_selecting_file">Lỗi chọn tệp</string>
+    <string name="internal_storage">Bộ nhớ trong</string>
+    <string name="storage_removed">Bộ nhớ đã bị xóa hoặc không lắp sẵn</string>
+    <string name="text_animation">Hiệu ứng văn bản</string>
+    <string name="text_animation_explanation">Tùy chỉnh hiệu ứng cho văn bản</string>
+    <string name="bottom_to_top">Từ dưới lên trên</string>
+    <string name="left_to_right">Từ trái qua phải</string>
+    <string name="right_to_left">Từ phải qua trái</string>
+    <string name="top_to_bottom">Từ trên xuống dưới</string>
+    <string name="toast_permission_denied">Quyền truy cập vào bộ nhớ thiết bị bị từ chối :(</string>
+    <string name="toast_permission_granted">Quyền đã được cấp! Xin mời bạn nhấn chọn tệp một lần nữa.</string>
+    <string name="toast_selected_path">"Đường dẫn đã chọn là: "</string>
+</resources>

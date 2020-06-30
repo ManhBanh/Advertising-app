@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trangmo"
+    android:keepScreenOn="true"
+    tools:context=".JavaActivity">
+
+    <LinearLayout
+        android:id="@+id/llVideo"
+        android:layout_width="@dimen/_400sdp"
+        android:layout_height="@dimen/_260sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/shape_frame_layout">
+
+        <FrameLayout
+            android:id="@+id/video_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:background="@drawable/shape_frame_layout" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/web_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:layout_toRightOf="@+id/llVideo"
+        android:background="@color/fragment_background_color" />
+
+    <!--    <FrameLayout-->
+    <!--        android:id="@+id/youtubevideo_container"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_below="@+id/web_container"-->
+    <!--        android:layout_toRightOf="@+id/llVideo"-->
+    <!--        android:background="@color/fragment_background_color" />-->
+
+    <FrameLayout
+        android:id="@+id/unUsed_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/llVideo"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/web_container"
+        android:background="@color/xanhdatroi">
+
+        <TextView
+            android:id="@+id/tvNews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/_9sdp"
+            android:text="How can I show that text?"
+            android:textColor="@color/den"
+            android:textSize="@dimen/_22sdp" />
+    </FrameLayout>
+
+</RelativeLayout>

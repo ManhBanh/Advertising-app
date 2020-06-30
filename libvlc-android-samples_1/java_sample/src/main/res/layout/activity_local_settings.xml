@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/_20sdp"
+    android:layout_marginRight="@dimen/_20sdp"
+    tools:context="org.videolan.javasample.LocalSettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textview_big"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/local_settings" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:background="@color/trang" />
+
+        <RelativeLayout
+            android:id="@+id/rlSelectVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/tvSelectVideo"
+                style="@style/textview_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/select_video" />
+
+            <TextView
+                android:id="@+id/tvSelectVideoExplanation"
+                style="@style/textview_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvSelectVideo"
+                android:text="@string/select_video_explanation" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:background="@color/trang" />
+
+        <RelativeLayout
+            android:id="@+id/rlSelectWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/tvSelectWeb"
+                style="@style/textview_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/select_web" />
+
+            <TextView
+                android:id="@+id/tvSelectWebExplanation"
+                style="@style/textview_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvSelectWeb"
+                android:text="@string/select_web_explanation" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:background="@color/trang" />
+
+        <RelativeLayout
+            android:id="@+id/rlReplaceSplashScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/tvReplaceSplashScreen"
+                style="@style/textview_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/replace_splash_screen" />
+
+            <TextView
+                android:id="@+id/tvReplaceSplashScreenExplanation"
+                style="@style/textview_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvReplaceSplashScreen"
+                android:text="@string/replace_splash_screen_explanation" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:background="@color/trang" />
+
+        <RelativeLayout
+            android:id="@+id/rlTextAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/trongsuot"
+            android:layout_marginLeft="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/tvTextAnimation"
+                style="@style/textview_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/text_animation" />
+
+            <TextView
+                android:id="@+id/tvTextAnimationExplanation"
+                style="@style/textview_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvTextAnimation"
+                android:text="@string/text_animation_explanation" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:background="@color/trang" />
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="@dimen/_20sdp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvOrientation"-->
+<!--                style="@style/textview_big"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:text="@string/orientation" />-->
+
+<!--            <TextView-->
+<!--                style="@style/textview_small"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/tvOrientation"-->
+<!--                android:text="@string/orientation_explanation" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:layout_marginTop="@dimen/_3sdp"-->
+<!--            android:layout_marginBottom="@dimen/_3sdp"-->
+<!--            android:background="@color/trang" />-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/tvStartUpWithDevice"
+                style="@style/textview_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/start_with_device" />
+
+            <TextView
+                style="@style/textview_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvStartUpWithDevice"
+                android:text="@string/start_with_device_explanation" />
+
+            <CheckBox
+                android:id="@+id/cbStartUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_20sdp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:background="@color/trang" />
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="@dimen/_20sdp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvActionBarMode"-->
+<!--                style="@style/textview_big"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:text="@string/action_bar_mode" />-->
+
+<!--            <TextView-->
+<!--                style="@style/textview_small"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/tvActionBarMode"-->
+<!--                android:text="@string/action_bar_mode_explanation" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:layout_marginTop="@dimen/_3sdp"-->
+<!--            android:layout_marginBottom="@dimen/_3sdp"-->
+<!--            android:background="@color/trang" />-->
+
+        <RelativeLayout
+            android:id="@+id/rlActionBarDisplayDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/tvActionBarDisplay"
+                style="@style/textview_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/action_bar_display" />
+
+            <TextView
+                style="@style/textview_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvActionBarDisplay"
+                android:text="@string/action_bar_display_explanation" />
+
+            <TextView
+                android:id="@+id/tvDuration"
+                style="@style/textview_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:textColor="@color/colorAccent" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:background="@color/trang" />
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="@dimen/_20sdp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvScreenDimenssions"-->
+<!--                style="@style/textview_big"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:text="@string/screen_dimensions" />-->
+
+<!--            <TextView-->
+<!--                style="@style/textview_small"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/tvScreenDimenssions"-->
+<!--                android:text="" />-->
+<!--        </RelativeLayout>-->
+
+        <TextView
+            style="@style/textview_big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="@string/debugging" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:background="@color/trang" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/tvAutomaticRestart"
+                style="@style/textview_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/automatic_restart" />
+
+            <TextView
+                style="@style/textview_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvAutomaticRestart"
+                android:text="@string/automatic_restart_explanation" />
+
+            <CheckBox
+                android:id="@+id/cbAutomaticallyRestart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_20sdp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:background="@color/trang" />
+
+        <RelativeLayout
+            android:id="@+id/rlStartDelay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/tvStartDelay"
+                style="@style/textview_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/start_delay" />
+
+            <TextView
+                style="@style/textview_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvStartDelay"
+                android:text="@string/start_delay_explanation" />
+
+            <TextView
+                android:id="@+id/tvStartDelayDuration"
+                style="@style/textview_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:textColor="@color/colorAccent" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
